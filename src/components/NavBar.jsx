@@ -4,13 +4,13 @@ import AboutUs from "../pages/AboutUs";
 
 const NavBar = () => {
   return (
-    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900 pb-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
           <img
             src={Logo}
             width={350}
-            height={40}
+            height={70}
             className="h-8 mr-3"
             alt="Flowbite Logo"
           />
