@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Logo from "../assets/Logo.png";
 import AboutUs from "../pages/AboutUs";
 
 const NavBar = () => {
@@ -7,14 +8,12 @@ const NavBar = () => {
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
           <img
-            src="https://t4.ftcdn.net/jpg/01/21/34/79/360_F_121347916_62nr60LQUmkC6D8RTMPN8Ue5TJM4wbWs.jpg"
-            width={60}
+            src={Logo}
+            width={350}
+            height={40}
             className="h-8 mr-3"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            LI Prestige
-          </span>
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -23,7 +22,6 @@ const NavBar = () => {
           aria-controls="navbar-default"
           aria-expanded="false"
         >
-          <span className="sr-only">Open main menu</span>
           <svg
             className="w-5 h-5"
             aria-hidden="true"
