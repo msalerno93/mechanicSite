@@ -8,7 +8,7 @@ import { Route, Routes } from "react-router";
 function App() {
 
   return (
-    <div className="bg-gray-300">
+    <div className="bg-gray-200">
     <NavBar/>
       <Routes>
       <Route path="/" element={<Homepage/>}/>
