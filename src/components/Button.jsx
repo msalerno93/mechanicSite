@@ -8,7 +8,7 @@ const navigate = useNavigate()
     }
 
   return (
-    <button onClick={handleClick} className="flex justify-center items-center w-[65%] font-bold rounded-full bg-gray-900 border-black text-white hover:text-blue-700 gap-2 px-7 py-4 border font-montserrat text-lg leading-none">
+    <button onClick={handleClick} className="flex justify-center items-center w-[65%] font-bold rounded-full bg-gray-900 border-black text-white hover:text-blue-500 gap-2 px-7 py-4 border font-montserrat text-lg leading-none">
         {label}
     </button>
   );
