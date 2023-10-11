@@ -1,5 +1,8 @@
 import Logo from '../assets/Logo.png'
+import { Link } from 'react-router-dom'
+import AboutUs from '../pages/AboutUs'
 const Footer = () => {
+
   return (
     
 <footer className="bg-white rounded-lg shadow dark:bg-gray-900">
@@ -10,7 +13,7 @@ const Footer = () => {
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                    <a href="#" className="mr-4 font-bold hover:text-blue-500 ">About</a>
+                    <a href="/aboutus" className="mr-4 font-bold hover:text-blue-500 ">About</a>
                 </li>
                 <li>
                     <a href="#" className="mr-4 font-bold hover:text-blue-500 md:mr-6">Privacy Policy</a>
@@ -19,7 +22,7 @@ const Footer = () => {
                     <a href="#" className="mr-4 font-bold hover:text-blue-500 md:mr-6 ">Licensing</a>
                 </li>
                 <li>
-                    <a href="#" className="font-bold hover:text-blue-500">Contact</a>
+                    <a href="/contactus" className="font-bold hover:text-blue-500">Contact</a>
                 </li>
             </ul>
         </div>
