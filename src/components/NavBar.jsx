@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900 pb-5">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="/" className="flex items-center">
+        <a href="/home" className="flex items-center">
           <img
             src={Logo}
             width={350}
@@ -46,7 +46,7 @@ const NavBar = () => {
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
             <li>
               <Link
-                to="/"
+                to="/home"
                 className="block py-2 pl-3 pr-4 font-bold text-white bg-blue-700 rounded md:bg-transparent md:hover:text-blue-500 md:p-0 dark:text-white "
                 aria-current="page"
               >

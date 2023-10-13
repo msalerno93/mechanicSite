@@ -17,7 +17,7 @@ const Homepage = () => {
           We handle everything from engine rebuilds to simple oil changes and
           tire rotations! Give us a call and let us know how we can help you!
         </p>
-        <Button label="Contact Us Today!" destination="contactus"/>
+        <Button label="Contact Us Today!" destination="/contactus"/>
       </div>
       <div className="relative flex-1 flex justify-center items-center xl:min-h-screen max-xl:py40 bg-primary bg-hero bg-cover bg-center">
         <img
