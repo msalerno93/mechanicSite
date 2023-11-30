@@ -1,5 +1,3 @@
-import React from "react";
-import { Link } from "react-router-dom";
 import Button from "../components/Button";
 
 const Homepage = () => {
@@ -7,7 +5,7 @@ const Homepage = () => {
     <section className="w-full flex xl:flex-row flex-col pt-0 justify-center min-h-screen p-8 gap-10 max-container">
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-10">
         <h1 className="mt-10 text-6xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
-          <span className="relative z-10 pr-10 font-mono">LI Prestige Automotive</span>
+          <span className="relative z-10 pr-10 font-mono">LI Prestige Auto</span>
           <br />
           <span className="text-coral-red text-2xl inline-block mt-3">
             (555)-555-5555

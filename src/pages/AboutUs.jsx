@@ -5,7 +5,7 @@ const AboutUs = () => {
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-10">
         <h1 className="mt-10 text-4xl max-sm:text-[72px] max-sm:leading-[82px] font-bold">
           <span className="relative z-10 pr-10 font-mono">
-            Here's a little bit about our company!
+            Heres a little bit about our company!
           </span>
           <br />
         </h1>
